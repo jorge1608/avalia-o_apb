@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	
+ 
+    <title>EcoSun</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+	<script src="script.js"></script>
+</head> 
+
+<body onload="showSlides(1);">
+
+	<div class="row">
+		<div class="col-12">
+		<nav>
+			<div id="top">
+				<div id="logo">
+					<a href="index.html"> <img src="logo.png" alt="logo" width="115" /></a>
+				</div>
+				<div id="name">
+				<a><strong>Ecosun</a>
+				</div>
+				<div id="menu">
+					<div class="menu_item"><a href="#">
+						<span class="glyphicon glyphicon-home"></span>Home</a></div>
+					<div class="menu_item">
+						<div class="dropdown">
+							<span class="glyphicon glyphicon-shopping-cart"></span> Produtos
+							<div class="dropdown_content">
+								<a href="#">Placas Solares</a>
+								<a href="#">Geradores</a>
+							
+							</div>
+						</div>
+					</div>
+					<div class="menu_item">
+						<div class="dropdown">
+							<span class="glyphicon glyphicon-star"></span> Quero Comprar
+							
+							</div>
+						</div>
+					</div>
+					<div class="menu_item">
+						<a href="#"><span class="glyphicon glyphicon-info-sign"></span> Sobre</a>
+					</div>
+					<div class="menu_item">
+						<div class="dropdown">
+							<span class="glyphicon glyphicon-share"></span> Compartilhe
+							<div class="dropdown_content">
+								<a href="https://www.facebook.com/people/EcoSun-Placas/pfbid02eBrUvpYTF5QBccbcYBsQKQFEBNfBWxJr1SCxeeaFDHkyN4brMQFgC4HGjuA5WhCXl/" target="_blank"><i class="fa fa-facebook-f"></i> Facebook</a>
+								<a href="https://www.instagram.com/ecosun/"target="_blank"><i class="fa fa-instagram"></i>Instagram</a>
+								<a href="https://www.youtube.com/@EcoSun_/about"target="_blank"><i class="fa fa-youtube"></i> YouTube</a>
+								<a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEa2YjyCoImmAAAAYjpwZFImFtbol0guNpTXOE7ypmZsWjtbg5jHOpjBz7Y-Lc67uItl2VAMZwM9iTGdJJkei5li9MiqhCaBc9Cj1667mwCHb3hzpdAN7c8vym0UxilbjFLCk0=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fecosun-placas-solares-8438b3280%2F"target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="search">
+					<input type="text" id="inp_search" placeholder="digite..." />
+					<button id="btn_search">
+						<span class="glyphicon glyphicon-search"></span>Pesquisar
+					</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-12">
+		 <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
+			<div id="mySlides" class="w3-content w3-display-container">
+				<img class="mySlides" src="logo1.png" style="width:100%">
+				<img class="mySlides" src="logo2.png" style="width:100%">
+				<img class="mySlides" src="logo3.png" style="width:100%">
+				<img class="mySlides" src="logo4.png" style="width:100%">
+				<img class="mySlides" src="logo5.png" style="width:100%">
+				<img class="mySlides" src="logo6.png" style="width:100%">
+			  
+				<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+      <div class="card green">
+        <h2>Renovável</h2>
+        <p> A energia solar utiliza recursos que são naturalmente reabastecidos, pois converte os raios solares em eletricidade.</p>
+        <img class="image" src="logo8.png" alt="money" />
+      </div>
+ 
+      <div class="card blue">
+        <h2>Econômica</h2>
+        <p>Por ser gerada através da luz solar, uma fonte gratuita e inesgotável de energia, 
+		os valores da sua conta de energia serão reduzidos em até 95%. </p>
+        <img class="image" src="logo7.png" alt="settings" />
+      </div>
+ 
+      <div class="card orange">
+        <h2>Durável</h2>
+        <p>As placas solares tem uma durabilidade de no mínimo 25 anos.
+		</p>
+        <img class="image" src="logo9.png" alt="article" />
+      </div>
+    </div>
+	
+	<div class="row">
+		<div class="col-8" style="background-color:black; height: 70vh;" style="font-color:green;"> As placas solares convertem a radiação solar em eletricidade, através de células fotovoltaicas que são compostas por materiais semicondutores<br></br> que geram energia quando as partículas da luz solar, fótons,<br></br> colidem com os átomos desses materiais, provocando o deslocamento dos elétrons, gerando assim a corrente elétrica, usada para fazer o abastecimento de eletricidade em estabelecimentos comerciais e ambientes fabris. </div>
+		<div class="col-4" >
+			 <img  src="placasolar.jpg" style="height: 70vh "/>
+		</div>
+	</div>
+	
+	<div class="row">
+	
+		<div class="col-9">
+			<center>	
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/6ktSlsuLXLw" 
+				title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+				gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</center>
+		</div>
+		<div class="col-3"></div>
+
+	</div>
+<div class="row">
+	<footer class="col-12">
+		<div class="footer_section">
+			<h4>FILIAIS</h4><hr />
+			<span class="glyphicon glyphicon-phone"></span>
+			<i class="fa fa-whatsapp"></i> (21) 9.9985-5658 - Niterói   :::
+			<i class="fa fa-envelope"></i> ecosuncomercial@gmail.com<hr />
+			<span class="glyphicon glyphicon-phone"></span> 
+			<i class="fa fa-whatsapp"></i> (11) 9.9985-5452 - São Paulo :::
+			<i class="fa fa-envelope"></i> ecosuncomercial@gmail.com<hr />
+			<span class="glyphicon glyphicon-phone"></span>
+			<i class="fa fa-whatsapp"></i> (71) 9.9977-5241 - Salvador :::
+			<i class="fa fa-envelope"></i> ecosuncomercial@gmail.com
+		</div>
+		<div class="footer_section">
+			<h4>NOVIDADES</h4><hr />
+			<p>Cadastre-se para receber as novidades<p>
+			<label for="inp_email">Seu e-mail: </label>
+			<input type="text" id="inp_news" /><br />
+			<p><input type="checkbox" id="check_news" /> Concordo com os termos.</p>
+			<button id="btn_search">
+				<span class="glyphicon glyphicon-envelope"></span> OK
+			</button>
+		</div>
+		<div class="footer_section">
+			<h4>SAC</h4><hr />
+			<i class="fa fa-file"></i> (41) 4002-8922<hr />
+			<i class="fa fa-file"></i> ecosuncomercial@gmail.com<hr />
+			<i class="fa fa-file"></i> Rua: Padre Natal Pigatto, 345
+		</div>
+	</footer>
+</div>
+</body>
+</html>
